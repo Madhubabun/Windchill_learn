@@ -1,0 +1,4873 @@
+{
+  "appVersion": "0.1.0",
+  "knowledgeVersion": "source-map derived 2026-10-06",
+  "modules": [
+    {
+      "id": "m01",
+      "number": "01",
+      "title": "Windchill & PLM Fundamentals",
+      "description": "Start here: PLM, Windchill architecture, navigation and core objects.",
+      "lessonCount": 23
+    },
+    {
+      "id": "m02",
+      "number": "02",
+      "title": "Product Data Management",
+      "description": "Documents, CAD data, versioning, BOMs and visualization.",
+      "lessonCount": 29
+    },
+    {
+      "id": "m03",
+      "number": "03",
+      "title": "Change & Configuration Management",
+      "description": "Change processes, workflows, baselines and configuration.",
+      "lessonCount": 25
+    },
+    {
+      "id": "m04",
+      "number": "04",
+      "title": "Business Administration",
+      "description": "Participants, contexts, types, attributes, access, workflows and templates.",
+      "lessonCount": 38
+    },
+    {
+      "id": "m05",
+      "number": "05",
+      "title": "System Administration",
+      "description": "Installation, properties, services, vaults, queues, monitoring and maintenance.",
+      "lessonCount": 31
+    },
+    {
+      "id": "m06",
+      "number": "06",
+      "title": "Migration & Data Management",
+      "description": "Migration strategy, WBM, load utilities, packages and mapping.",
+      "lessonCount": 17
+    },
+    {
+      "id": "m07",
+      "number": "07",
+      "title": "Advanced Topics & Customization",
+      "description": "MPMLink, options, CAD, integrations, classification, customization and more.",
+      "lessonCount": 73
+    }
+  ],
+  "lessons": [
+    {
+      "id": "m01-s01-l01",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "What is PLM? From napkin sketch to retired product",
+      "sourceIds": [
+        "te",
+        "pf",
+        "catalog",
+        "trn-intro-plm"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "2026 catalog",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Official course list by area; used for scope only (fundamentals, CAD, BOM, business admin, system admin, Windchill+, collaboration, quality, Navigate, Illustrate); PLM basics",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s01-l02",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "PDM, PLM, ERP and MES: who owns what",
+      "sourceIds": [
+        "te",
+        "pf",
+        "catalog",
+        "trn-intro-plm"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "2026 catalog",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Official course list by area; used for scope only (fundamentals, CAD, BOM, business admin, system admin, Windchill+, collaboration, quality, Navigate, Illustrate); PLM basics",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s01-l03",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Why Windchill? Its place in the PTC ecosystem",
+      "sourceIds": [
+        "te",
+        "pf",
+        "catalog",
+        "trn-intro-plm"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "2026 catalog",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Official course list by area; used for scope only (fundamentals, CAD, BOM, business admin, system admin, Windchill+, collaboration, quality, Navigate, Illustrate); PLM basics",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s01-l04",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "A day in the life of a product team using Windchill",
+      "sourceIds": [
+        "te",
+        "pf",
+        "catalog",
+        "trn-intro-plm"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "2026 catalog",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Official course list by area; used for scope only (fundamentals, CAD, BOM, business admin, system admin, Windchill+, collaboration, quality, Navigate, Illustrate); PLM basics",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s01-l05",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Pacesetters: PTC's ready-made starting point",
+      "sourceIds": [
+        "te",
+        "pf"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s01-l06",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Beyond PDM: variability, manufacturing, service and model-based definition",
+      "sourceIds": [
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s02-l01",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "The big picture: browser, server, database, vault",
+      "sourceIds": [
+        "te",
+        "ac",
+        "trn-arch"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Architecture tiers",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s02-l02",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Web server, servlet engine and method servers in plain words",
+      "sourceIds": [
+        "te",
+        "ac",
+        "trn-arch"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Architecture tiers",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s02-l03",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Where your files live: metadata vs content",
+      "sourceIds": [
+        "te",
+        "ac",
+        "trn-arch"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Architecture tiers",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s02-l04",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Windchill solutions: PDMLink, ProjectLink, MPMLink, Quality and more",
+      "sourceIds": [
+        "te",
+        "ac",
+        "trn-arch"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Architecture tiers",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s02-l05",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Windchill user roles and types of implementations",
+      "sourceIds": [
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s03-l01",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Logging in and touring the home page",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s03-l02",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "The Navigator, contexts and folders",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s03-l03",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Searching: quick search, advanced search and saved searches",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s03-l04",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Information pages: reading an object's story",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s03-l05",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Tables, views and filters: make the data yours",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s03-l06",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Favorites, subscriptions and notifications",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s04-l01",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Parts: the backbone of your product",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s04-l02",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Documents and CAD documents",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s04-l03",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Change objects at a glance",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s04-l04",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "How objects relate: uses, described by, references",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s04-l05",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "Object identity: number, name, version and state",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m01-s04-l06",
+      "moduleId": "m01",
+      "moduleNumber": "01",
+      "moduleTitle": "Windchill & PLM Fundamentals",
+      "sectionId": "m01-s0",
+      "sectionTitle": "Learning section",
+      "title": "How access is controlled: a first look",
+      "sourceIds": [
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s01-l01",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Creating and checking in a document",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s01-l02",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Check out, edit, check in: the edit cycle",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s01-l03",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Primary content, attachments and representations",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s01-l04",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "CAD documents and Workgroup Managers",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s01-l05",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Workspaces: your local cache and the server",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s01-l06",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Conflicts and collisions: resolving them calmly",
+      "sourceIds": [
+        "te",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s01-l07",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Document templates and creating many documents at once",
+      "sourceIds": [
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s01-l08",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Working with Windchill documents from Microsoft Office",
+      "sourceIds": [
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s01-l09",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Part-centric vs CAD-centric product development",
+      "sourceIds": [
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s01-l10",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "CAD drawings, CAD templates and parameters",
+      "sourceIds": [
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s01-l11",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Out-of-date workspace objects and CAD import/export",
+      "sourceIds": [
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s02-l01",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Revision vs iteration: A.1, A.2, B.1",
+      "sourceIds": [
+        "te",
+        "ac",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s02-l02",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Revise, new view version or save as: when to use which",
+      "sourceIds": [
+        "te",
+        "ac",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s02-l03",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Lifecycle states: In Work, Under Review, Released",
+      "sourceIds": [
+        "te",
+        "ac",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s02-l04",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Set state vs promotion: who moves an object forward",
+      "sourceIds": [
+        "te",
+        "ac",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s02-l05",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Configuration specifications: latest, baseline, effectivity",
+      "sourceIds": [
+        "te",
+        "ac",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s02-l06",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Baselines: freezing a moment in time",
+      "sourceIds": [
+        "te",
+        "ac",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s03-l01",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "What is a BOM?",
+      "sourceIds": [
+        "te",
+        "hc-cad-assoc",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Owner, Contributing Image, Image, Contributing Content and Content associations; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s03-l02",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Building a part structure",
+      "sourceIds": [
+        "te",
+        "hc-cad-assoc",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Owner, Contributing Image, Image, Contributing Content and Content associations; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s03-l03",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Quantities, units, find numbers and reference designators",
+      "sourceIds": [
+        "te",
+        "hc-cad-assoc",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Owner, Contributing Image, Image, Contributing Content and Content associations; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s03-l04",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Linking parts and CAD: owner, contributing and image links",
+      "sourceIds": [
+        "te",
+        "hc-cad-assoc",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Owner, Contributing Image, Image, Contributing Content and Content associations; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s03-l05",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Structure views, compare and reports",
+      "sourceIds": [
+        "te",
+        "hc-cad-assoc",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Owner, Contributing Image, Image, Contributing Content and Content associations; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s03-l06",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Alternates and substitutes",
+      "sourceIds": [
+        "te",
+        "hc-cad-assoc",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Owner, Contributing Image, Image, Contributing Content and Content associations; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s03-l07",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Where-used and the cost of reuse",
+      "sourceIds": [
+        "te",
+        "hc-cad-assoc",
+        "trn-pdmlink"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Owner, Contributing Image, Image, Contributing Content and Content associations; Intro, navigation, documents, BOM, lifecycle and workflow, change",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s03-l08",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Occurrences: placing the same part more than once",
+      "sourceIds": [
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s04-l01",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Creo View: seeing designs without CAD",
+      "sourceIds": [
+        "te",
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s04-l02",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Thumbnails, representations and browser viewing",
+      "sourceIds": [
+        "te",
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s04-l03",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Markup and annotation for design reviews",
+      "sourceIds": [
+        "te",
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m02-s04-l04",
+      "moduleId": "m02",
+      "moduleNumber": "02",
+      "moduleTitle": "Product Data Management",
+      "sectionId": "m02-s0",
+      "sectionTitle": "Learning section",
+      "title": "Measure, section and compare in Creo View",
+      "sourceIds": [
+        "te",
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s01-l01",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Why uncontrolled change costs millions",
+      "sourceIds": [
+        "te",
+        "pf",
+        "trn-cm-itc"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Change process, change requests, change notices, implementing changes",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s01-l02",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "The change process: problem report, change request, change notice",
+      "sourceIds": [
+        "te",
+        "pf",
+        "trn-cm-itc"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Change process, change requests, change notices, implementing changes",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s01-l03",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Fast track vs full track change",
+      "sourceIds": [
+        "te",
+        "pf",
+        "trn-cm-itc"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Change process, change requests, change notices, implementing changes",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s02-l01",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Problem reports: capturing the issue",
+      "sourceIds": [
+        "te",
+        "pf",
+        "trn-cm-itc"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Change process, change requests, change notices, implementing changes",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s02-l02",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Change requests: analysis and the CCB decision",
+      "sourceIds": [
+        "te",
+        "pf",
+        "trn-cm-itc"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Change process, change requests, change notices, implementing changes",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s02-l03",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Change notices and change tasks: making it happen",
+      "sourceIds": [
+        "te",
+        "pf",
+        "trn-cm-itc"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Change process, change requests, change notices, implementing changes",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s02-l04",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Affected and resulting objects",
+      "sourceIds": [
+        "te",
+        "pf",
+        "trn-cm-itc"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Change process, change requests, change notices, implementing changes",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s02-l05",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Redlines and change impact analysis",
+      "sourceIds": [
+        "te",
+        "pf",
+        "trn-cm-itc"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Change process, change requests, change notices, implementing changes",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s02-l06",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Variances: approved one-time deviations",
+      "sourceIds": [
+        "te",
+        "pf",
+        "trn-cm-itc"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Change process, change requests, change notices, implementing changes",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s02-l07",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Who does what: roles in the change process",
+      "sourceIds": [
+        "te",
+        "trn-cm-itc"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Change process, change requests, change notices, implementing changes",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s02-l08",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Releasing data directly with a change notice",
+      "sourceIds": [
+        "te",
+        "pf"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s02-l09",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Reviewing and auditing an implemented change",
+      "sourceIds": [
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s02-l10",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Initial releases and change intent",
+      "sourceIds": [
+        "pf"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.1.2.0"
+      ],
+      "sourceFocus": "Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s03-l01",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Promotion requests: moving objects through states",
+      "sourceIds": [
+        "te",
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s03-l02",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Promotion or change notice? Choosing the right tool",
+      "sourceIds": [
+        "te",
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s03-l03",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Reviewing and approving: your tasks",
+      "sourceIds": [
+        "te",
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s03-l04",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Promotion schemes and preferences",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s04-l01",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Lifecycles and workflows: the two engines",
+      "sourceIds": [
+        "ac",
+        "trn-wf-itc"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Workflow tools, manual tasks, process flow control, automating tasks",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s04-l02",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Tasks and work items in your inbox",
+      "sourceIds": [
+        "ac",
+        "trn-wf-itc"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Workflow tools, manual tasks, process flow control, automating tasks",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s04-l03",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Voting, routing and delegation",
+      "sourceIds": [
+        "ac",
+        "trn-wf-itc"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Workflow tools, manual tasks, process flow control, automating tasks",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s04-l04",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "What to do when a workflow gets stuck",
+      "sourceIds": [
+        "ac",
+        "trn-wf-itc"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Workflow tools, manual tasks, process flow control, automating tasks",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s05-l01",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "CM principles: identify, control, account, audit",
+      "sourceIds": [
+        "te",
+        "pf"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines",
+      "status": "general-concept"
+    },
+    {
+      "id": "m03-s05-l02",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Effectivity and as-designed vs as-built",
+      "sourceIds": [
+        "te",
+        "pf"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s05-l03",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Interchangeability and form-fit-function rules",
+      "sourceIds": [
+        "te",
+        "pf"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines",
+      "status": "sourced"
+    },
+    {
+      "id": "m03-s05-l04",
+      "moduleId": "m03",
+      "moduleNumber": "03",
+      "moduleTitle": "Change & Configuration Management",
+      "sectionId": "m03-s0",
+      "sectionTitle": "Learning section",
+      "title": "Change KPIs and configuration audits",
+      "sourceIds": [
+        "te",
+        "pf"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s01-l01",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Users, groups and organizations",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s01-l02",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Participant administration hands-on",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s01-l03",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Directory services and LDAP for business admins",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s01-l04",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Profiles: shaping what each user sees",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s01-l05",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Deleting users, groups and organizations safely",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s02-l01",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Site, organization, product, library, project: the context hierarchy",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s02-l02",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Creating products and libraries from templates",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s02-l03",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Shared teams vs context teams",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s02-l04",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Context strategy and moving objects between contexts",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s03-l01",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Roles and team templates",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s03-l02",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Roles in practice: access, tasks and notifications",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s03-l03",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Team instances and role resolution",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s04-l01",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Type and Attribute Management: soft types",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s04-l02",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Global and local attributes, constraints",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s04-l03",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Enumerations and calculated attributes",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s04-l04",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Layouts: controlling what users see",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s04-l05",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Alias, modeled and reusable attributes",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s05-l01",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Domains and policy administration",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s05-l02",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Access rules: policy, ad hoc and security labels",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s05-l03",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Domain hierarchy and inheritance",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s05-l04",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Troubleshooting: why can't I see it?",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s05-l05",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Security labels and agreements",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s05-l06",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Grant, deny and absolute deny: rule priorities",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s05-l07",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Notification and indexing policies",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s06-l01",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Designing a lifecycle template",
+      "sourceIds": [
+        "ac",
+        "trn-wf-itc",
+        "trn-custsec9"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Workflow tools, manual tasks, process flow control, automating tasks; Lifecycle and workflow for soft types, team templates, custom states and roles",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s06-l02",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Workflow template editor basics",
+      "sourceIds": [
+        "ac",
+        "trn-wf-itc",
+        "trn-custsec9"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Workflow tools, manual tasks, process flow control, automating tasks; Lifecycle and workflow for soft types, team templates, custom states and roles",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s06-l03",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Robots, expressions and conditional routing",
+      "sourceIds": [
+        "ac",
+        "trn-wf-itc",
+        "trn-custsec9"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Workflow tools, manual tasks, process flow control, automating tasks; Lifecycle and workflow for soft types, team templates, custom states and roles",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s06-l04",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Object initialization rules",
+      "sourceIds": [
+        "ac",
+        "trn-wf-itc",
+        "trn-custsec9"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Workflow tools, manual tasks, process flow control, automating tasks; Lifecycle and workflow for soft types, team templates, custom states and roles",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s06-l05",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Version series and state-based versioning",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s06-l06",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Workflow strategy: modular, single and combined workflows",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s07-l01",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Context templates and what they carry",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s07-l02",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Numbering schemes with OIRs",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s07-l03",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Preference management and locking",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s07-l04",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "CAD document and organization templates",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s08-l01",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Report templates with Query Builder",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s08-l02",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Sharing reports and building simple dashboards",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s09-l01",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Classification structures",
+      "sourceIds": [
+        "pl",
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PartsLink overview and use cases, classification search and facets, Find Similar, classification structure and attributes, data loading, autonaming; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m04-s09-l02",
+      "moduleId": "m04",
+      "moduleNumber": "04",
+      "moduleTitle": "Business Administration",
+      "sectionId": "m04-s0",
+      "sectionTitle": "Learning section",
+      "title": "Classification attributes and search",
+      "sourceIds": [
+        "pl",
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "PartsLink overview and use cases, classification search and facets, Find Similar, classification structure and attributes, data loading, autonaming; Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s01-l01",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Topologies and system requirements",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s01-l02",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Installing with PTC Solution Installer",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s01-l03",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Post-installation checks",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s01-l04",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Hardware sizing and weighted active users",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s01-l05",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Deployment options: on-premises, third-party cloud and PTC Cloud Services",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s01-l06",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Starting and stopping Windchill services",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s02-l01",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Properties, site.xconf and xconfmanager",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s02-l02",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Monitoring tools and server status",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s02-l03",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Reading logs: method server and more",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s02-l04",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "JVM and database tuning basics",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s02-l05",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "The windchill command and Windchill Shell",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s02-l06",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Windchill Configuration Assistant",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s02-l07",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Error reporting, log events and diagnostics for PTC",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s03-l01",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "File vaults, folders and revaulting",
+      "sourceIds": [
+        "ac",
+        "trn-config"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); External storage vaults, replication vaults and rules, vaulting rules, workflow queues, file server",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s03-l02",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Replication sites and content caching",
+      "sourceIds": [
+        "ac",
+        "trn-config"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); External storage vaults, replication vaults and rules, vaulting rules, workflow queues, file server",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s03-l03",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Vault maintenance and cleanup",
+      "sourceIds": [
+        "ac",
+        "trn-config"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); External storage vaults, replication vaults and rules, vaulting rules, workflow queues, file server",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s04-l01",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Background queues",
+      "sourceIds": [
+        "ac",
+        "trn-config"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); External storage vaults, replication vaults and rules, vaulting rules, workflow queues, file server",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s04-l02",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Worker Agent and CAD workers",
+      "sourceIds": [
+        "ac",
+        "trn-config"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); External storage vaults, replication vaults and rules, vaulting rules, workflow queues, file server",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s04-l03",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Publishing rules and automated publishing",
+      "sourceIds": [
+        "ac",
+        "trn-config"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); External storage vaults, replication vaults and rules, vaulting rules, workflow queues, file server",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s04-l04",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Background method servers and distributing queues",
+      "sourceIds": [
+        "ac",
+        "trn-config"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); External storage vaults, replication vaults and rules, vaulting rules, workflow queues, file server",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s05-l01",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Routine maintenance checklist",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s05-l02",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Backup strategy: keeping database and vaults in sync",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s05-l03",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Disaster recovery drill",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s05-l04",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Hot and cold backups",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s05-l05",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Vault backup tools and read-only mode",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s05-l06",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "System health: KPIs, dashboards and Performance Advisor",
+      "sourceIds": [
+        "ac"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance)",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s06-l01",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Clustered architecture",
+      "sourceIds": [
+        "ac",
+        "trn-cluster"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Clustering",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s06-l02",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Load balancing and failover",
+      "sourceIds": [
+        "ac",
+        "trn-cluster"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "unstated"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Clustering",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s07-l01",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Authentication and single sign-on",
+      "sourceIds": [
+        "ac",
+        "hc-sso"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); SAML, OpenID Connect and OAuth 2.0; only one SSO protocol per system",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s07-l02",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "Hardening and secure configuration",
+      "sourceIds": [
+        "ac",
+        "hc-sso"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); SAML, OpenID Connect and OAuth 2.0; only one SSO protocol per system",
+      "status": "sourced"
+    },
+    {
+      "id": "m05-s07-l03",
+      "moduleId": "m05",
+      "moduleNumber": "05",
+      "moduleTitle": "System Administration",
+      "sectionId": "m05-s0",
+      "sectionTitle": "Learning section",
+      "title": "License management",
+      "sourceIds": [
+        "ac",
+        "hc-sso"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); SAML, OpenID Connect and OAuth 2.0; only one SSO protocol per system",
+      "status": "sourced"
+    },
+    {
+      "id": "m06-s01-l01",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "Why migrations fail",
+      "sourceIds": [
+        "hc-wbm",
+        "hc-upgrade"
+      ],
+      "tier": 3,
+      "releases": [
+        "13.1.2.0"
+      ],
+      "sourceFocus": "WBM is a set of tools for permanent one-way migration into Windchill using Extract, Transform, Load and Validate (ETLV); Ten-step upgrade sequence from source to target system, including the Upgrade Manager",
+      "status": "general-concept"
+    },
+    {
+      "id": "m06-s01-l02",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "Big bang, phased or coexistence?",
+      "sourceIds": [
+        "hc-wbm",
+        "hc-upgrade"
+      ],
+      "tier": 3,
+      "releases": [
+        "13.1.2.0"
+      ],
+      "sourceFocus": "WBM is a set of tools for permanent one-way migration into Windchill using Extract, Transform, Load and Validate (ETLV); Ten-step upgrade sequence from source to target system, including the Upgrade Manager",
+      "status": "general-concept"
+    },
+    {
+      "id": "m06-s01-l03",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "Data assessment and cleansing",
+      "sourceIds": [
+        "hc-wbm",
+        "hc-upgrade"
+      ],
+      "tier": 3,
+      "releases": [
+        "13.1.2.0"
+      ],
+      "sourceFocus": "WBM is a set of tools for permanent one-way migration into Windchill using Extract, Transform, Load and Validate (ETLV); Ten-step upgrade sequence from source to target system, including the Upgrade Manager",
+      "status": "general-concept"
+    },
+    {
+      "id": "m06-s02-l01",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "Windchill Bulk Migrator overview",
+      "sourceIds": [
+        "hc-wbm",
+        "hc-load",
+        "hc-impexp"
+      ],
+      "tier": 3,
+      "releases": [
+        "13.1.2.0",
+        "Windchill+ 13.1.2.0"
+      ],
+      "sourceFocus": "WBM is a set of tools for permanent one-way migration into Windchill using Extract, Transform, Load and Validate (ETLV); LoadFromFile, LoadFileSet, Windchill Loader, CSV2XML; load files are XML; Export to JAR, import, mapping rule files, policy files",
+      "status": "sourced"
+    },
+    {
+      "id": "m06-s02-l02",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "Load files and the load utilities",
+      "sourceIds": [
+        "hc-wbm",
+        "hc-load",
+        "hc-impexp"
+      ],
+      "tier": 3,
+      "releases": [
+        "13.1.2.0",
+        "Windchill+ 13.1.2.0"
+      ],
+      "sourceFocus": "WBM is a set of tools for permanent one-way migration into Windchill using Extract, Transform, Load and Validate (ETLV); LoadFromFile, LoadFileSet, Windchill Loader, CSV2XML; load files are XML; Export to JAR, import, mapping rule files, policy files",
+      "status": "sourced"
+    },
+    {
+      "id": "m06-s02-l03",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "The import and export framework",
+      "sourceIds": [
+        "hc-wbm",
+        "hc-load",
+        "hc-impexp"
+      ],
+      "tier": 3,
+      "releases": [
+        "13.1.2.0",
+        "Windchill+ 13.1.2.0"
+      ],
+      "sourceFocus": "WBM is a set of tools for permanent one-way migration into Windchill using Extract, Transform, Load and Validate (ETLV); LoadFromFile, LoadFileSet, Windchill Loader, CSV2XML; load files are XML; Export to JAR, import, mapping rule files, policy files",
+      "status": "sourced"
+    },
+    {
+      "id": "m06-s03-l01",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "Packages and deliveries",
+      "sourceIds": [
+        "hc-packages",
+        "hc-pkg-best",
+        "hc-impexp"
+      ],
+      "tier": 3,
+      "releases": [
+        "13.1.2.0",
+        "Windchill+ 13.1.2.0"
+      ],
+      "sourceFocus": "Standard and replication packages, delivery formats, received deliveries; import supported in PDMLink only; Package best practices; Export to JAR, import, mapping rule files, policy files",
+      "status": "sourced"
+    },
+    {
+      "id": "m06-s03-l02",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "Mapping management: types, attributes and values",
+      "sourceIds": [
+        "hc-packages",
+        "hc-pkg-best",
+        "hc-impexp"
+      ],
+      "tier": 3,
+      "releases": [
+        "13.1.2.0",
+        "Windchill+ 13.1.2.0"
+      ],
+      "sourceFocus": "Standard and replication packages, delivery formats, received deliveries; import supported in PDMLink only; Package best practices; Export to JAR, import, mapping rule files, policy files",
+      "status": "sourced"
+    },
+    {
+      "id": "m06-s03-l03",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "Validation and reconciliation",
+      "sourceIds": [
+        "hc-packages",
+        "hc-pkg-best",
+        "hc-impexp"
+      ],
+      "tier": 3,
+      "releases": [
+        "13.1.2.0",
+        "Windchill+ 13.1.2.0"
+      ],
+      "sourceFocus": "Standard and replication packages, delivery formats, received deliveries; import supported in PDMLink only; Package best practices; Export to JAR, import, mapping rule files, policy files",
+      "status": "sourced"
+    },
+    {
+      "id": "m06-s03-l04",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "Standard vs replication packages",
+      "sourceIds": [
+        "hc-packages",
+        "hc-pkg-best"
+      ],
+      "tier": 3,
+      "releases": [
+        "13.1.2.0",
+        "Windchill+ 13.1.2.0"
+      ],
+      "sourceFocus": "Standard and replication packages, delivery formats, received deliveries; import supported in PDMLink only; Package best practices",
+      "status": "sourced"
+    },
+    {
+      "id": "m06-s04-l01",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "From file shares and legacy PDM",
+      "sourceIds": [
+        "hc-wbm",
+        "hc-cad-assoc"
+      ],
+      "tier": 3,
+      "releases": [
+        "13.1.2.0"
+      ],
+      "sourceFocus": "WBM is a set of tools for permanent one-way migration into Windchill using Extract, Transform, Load and Validate (ETLV); Owner, Contributing Image, Image, Contributing Content and Content associations",
+      "status": "general-concept"
+    },
+    {
+      "id": "m06-s04-l02",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "From other PLM systems",
+      "sourceIds": [
+        "hc-wbm",
+        "hc-cad-assoc"
+      ],
+      "tier": 3,
+      "releases": [
+        "13.1.2.0"
+      ],
+      "sourceFocus": "WBM is a set of tools for permanent one-way migration into Windchill using Extract, Transform, Load and Validate (ETLV); Owner, Contributing Image, Image, Contributing Content and Content associations",
+      "status": "needs-source"
+    },
+    {
+      "id": "m06-s04-l03",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "CAD data migration specifics",
+      "sourceIds": [
+        "hc-wbm",
+        "hc-cad-assoc"
+      ],
+      "tier": 3,
+      "releases": [
+        "13.1.2.0"
+      ],
+      "sourceFocus": "WBM is a set of tools for permanent one-way migration into Windchill using Extract, Transform, Load and Validate (ETLV); Owner, Contributing Image, Image, Contributing Content and Content associations",
+      "status": "sourced"
+    },
+    {
+      "id": "m06-s05-l01",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "Rehosting: cloning production into test and development",
+      "sourceIds": [
+        "hc-upgrade",
+        "hc-rehost",
+        "cust"
+      ],
+      "tier": 1,
+      "releases": [
+        "12.0.2.0 (no 13.1.2.0 page found)",
+        "13.0.2.4",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "Ten-step upgrade sequence from source to target system, including the Upgrade Manager; Rehosting updates cloned test/development landscapes for a new host name, directory or platform; Why and how to customize, deploying custom code, updates and maintenance, customer build, coding conventions, wtSafeArea, Eclipse IDE",
+      "status": "sourced"
+    },
+    {
+      "id": "m06-s05-l02",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "The upgrade process step by step",
+      "sourceIds": [
+        "hc-upgrade",
+        "hc-rehost",
+        "cust"
+      ],
+      "tier": 1,
+      "releases": [
+        "12.0.2.0 (no 13.1.2.0 page found)",
+        "13.0.2.4",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "Ten-step upgrade sequence from source to target system, including the Upgrade Manager; Rehosting updates cloned test/development landscapes for a new host name, directory or platform; Why and how to customize, deploying custom code, updates and maintenance, customer build, coding conventions, wtSafeArea, Eclipse IDE",
+      "status": "sourced"
+    },
+    {
+      "id": "m06-s05-l03",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "Customization impact on upgrades",
+      "sourceIds": [
+        "hc-upgrade",
+        "hc-rehost",
+        "cust"
+      ],
+      "tier": 1,
+      "releases": [
+        "12.0.2.0 (no 13.1.2.0 page found)",
+        "13.0.2.4",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "Ten-step upgrade sequence from source to target system, including the Upgrade Manager; Rehosting updates cloned test/development landscapes for a new host name, directory or platform; Why and how to customize, deploying custom code, updates and maintenance, customer build, coding conventions, wtSafeArea, Eclipse IDE",
+      "status": "sourced"
+    },
+    {
+      "id": "m06-s05-l04",
+      "moduleId": "m06",
+      "moduleNumber": "06",
+      "moduleTitle": "Migration & Data Management",
+      "sectionId": "m06-s0",
+      "sectionTitle": "Learning section",
+      "title": "Testing and cutover planning",
+      "sourceIds": [
+        "hc-upgrade",
+        "hc-rehost",
+        "cust"
+      ],
+      "tier": 1,
+      "releases": [
+        "12.0.2.0 (no 13.1.2.0 page found)",
+        "13.0.2.4",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "Ten-step upgrade sequence from source to target system, including the Upgrade Manager; Rehosting updates cloned test/development landscapes for a new host name, directory or platform; Why and how to customize, deploying custom code, updates and maintenance, customer build, coding conventions, wtSafeArea, Eclipse IDE",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s01-l01",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "eBOM vs mBOM",
+      "sourceIds": [
+        "mpm-bom",
+        "mpm-pp",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "mBOM rationale, BOM Transformer, transformation scenarios (plants, lines, view networks), best practices with change; Manufacturing resources and standards, process plans, operations, resource and part allocation, work instructions; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s01-l02",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Transforming an eBOM into an mBOM",
+      "sourceIds": [
+        "mpm-bom",
+        "mpm-pp",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "mBOM rationale, BOM Transformer, transformation scenarios (plants, lines, view networks), best practices with change; Manufacturing resources and standards, process plans, operations, resource and part allocation, work instructions; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s01-l03",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Process plans, operations and resources",
+      "sourceIds": [
+        "mpm-bom",
+        "mpm-pp",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "mBOM rationale, BOM Transformer, transformation scenarios (plants, lines, view networks), best practices with change; Manufacturing resources and standards, process plans, operations, resource and part allocation, work instructions; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s01-l04",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Plant-specific mBOMs",
+      "sourceIds": [
+        "mpm-bom",
+        "mpm-pp",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "mBOM rationale, BOM Transformer, transformation scenarios (plants, lines, view networks), best practices with change; Manufacturing resources and standards, process plans, operations, resource and part allocation, work instructions; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s01-l05",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Manufacturing resources and standards",
+      "sourceIds": [
+        "mpm-pp"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1"
+      ],
+      "sourceFocus": "Manufacturing resources and standards, process plans, operations, resource and part allocation, work instructions",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s01-l06",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "BOM Transformer scenarios: plants, lines and view networks",
+      "sourceIds": [
+        "mpm-bom"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1"
+      ],
+      "sourceFocus": "mBOM rationale, BOM Transformer, transformation scenarios (plants, lines, view networks), best practices with change",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s01-l07",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Keeping the mBOM in step with change",
+      "sourceIds": [
+        "mpm-bom"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1"
+      ],
+      "sourceFocus": "mBOM rationale, BOM Transformer, transformation scenarios (plants, lines, view networks), best practices with change",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s01-l08",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Work instructions",
+      "sourceIds": [
+        "mpm-pp"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1"
+      ],
+      "sourceFocus": "Manufacturing resources and standards, process plans, operations, resource and part allocation, work instructions",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s02-l01",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Options and choices",
+      "sourceIds": [
+        "ov",
+        "trn-options"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "unstated"
+      ],
+      "sourceFocus": "Configurable structures, options and choices, rules, option pools and sets, variants, product families and Matrix Editor, dynamic positioning; Options and choices",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s02-l02",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Overloaded BOMs and variant specifications",
+      "sourceIds": [
+        "ov",
+        "trn-options"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "unstated"
+      ],
+      "sourceFocus": "Configurable structures, options and choices, rules, option pools and sets, variants, product families and Matrix Editor, dynamic positioning; Options and choices",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s02-l03",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Configuring a variant",
+      "sourceIds": [
+        "ov",
+        "trn-options"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "unstated"
+      ],
+      "sourceFocus": "Configurable structures, options and choices, rules, option pools and sets, variants, product families and Matrix Editor, dynamic positioning; Options and choices",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s02-l04",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Option pools, option sets and rules",
+      "sourceIds": [
+        "ov"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1"
+      ],
+      "sourceFocus": "Configurable structures, options and choices, rules, option pools and sets, variants, product families and Matrix Editor, dynamic positioning",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s02-l05",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Product families and the Matrix Editor",
+      "sourceIds": [
+        "ov"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1"
+      ],
+      "sourceFocus": "Configurable structures, options and choices, rules, option pools and sets, variants, product families and Matrix Editor, dynamic positioning",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s02-l06",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Dynamic positioning",
+      "sourceIds": [
+        "ov"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1"
+      ],
+      "sourceFocus": "Configurable structures, options and choices, rules, option pools and sets, variants, product families and Matrix Editor, dynamic positioning",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s03-l01",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Creo Parametric and the Windchill workspace",
+      "sourceIds": [
+        "te",
+        "hc-ft"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Family table instance conflict handling in workspaces (13.1.2.0 change)",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s03-l02",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Check-in options, dependencies and collect rules",
+      "sourceIds": [
+        "te",
+        "hc-ft"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Family table instance conflict handling in workspaces (13.1.2.0 change)",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s03-l03",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Family tables, generics and instances",
+      "sourceIds": [
+        "te",
+        "hc-ft"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Family table instance conflict handling in workspaces (13.1.2.0 change)",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s03-l04",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Working across CAD tools: MCAD and ECAD",
+      "sourceIds": [
+        "te",
+        "hc-ft"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Family table instance conflict handling in workspaces (13.1.2.0 change)",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s03-l05",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Third-party CAD tools and Workgroup Managers",
+      "sourceIds": [
+        "te",
+        "catalog"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "2026 catalog"
+      ],
+      "sourceFocus": "PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects; Official course list by area; used for scope only (fundamentals, CAD, BOM, business admin, system admin, Windchill+, collaboration, quality, Navigate, Illustrate)",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s04-l01",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Closed-loop quality explained",
+      "sourceIds": [
+        "hc-quality",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "Document Control, Design Control, CAPA, Nonconformance, Customer Experience Management, Regulatory Hub, Audit Management, UDI; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s04-l02",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "CAPA, nonconformance and customer experience",
+      "sourceIds": [
+        "hc-quality",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0"
+      ],
+      "sourceFocus": "Document Control, Design Control, CAPA, Nonconformance, Customer Experience Management, Regulatory Hub, Audit Management, UDI; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s04-l03",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Risk and reliability: FMEA basics",
+      "sourceIds": [
+        "hc-wrr"
+      ],
+      "tier": 3,
+      "releases": [
+        "WRR 13.1.0.0"
+      ],
+      "sourceFocus": "Windchill Risk and Reliability product, including FMEA (separate product with its own help center)",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s04-l04",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Windchill quality modules for regulated industries",
+      "sourceIds": [
+        "hc-quality"
+      ],
+      "tier": 3,
+      "releases": [
+        "13.1.2.0"
+      ],
+      "sourceFocus": "Document Control, Design Control, CAPA, Nonconformance, Customer Experience Management, Regulatory Hub, Audit Management, UDI",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s05-l01",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Projects, plans and deliverables",
+      "sourceIds": [
+        "pm"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.2"
+      ],
+      "sourceFocus": "Project plans, Gantt Explorer, Microsoft Project, teams and resources, milestones, deliverables, action items, automatic execution, sharing with PDM",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s05-l02",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Collaborating with suppliers",
+      "sourceIds": [
+        "pm"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.2"
+      ],
+      "sourceFocus": "Project plans, Gantt Explorer, Microsoft Project, teams and resources, milestones, deliverables, action items, automatic execution, sharing with PDM",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s05-l03",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Schedules, milestones and the Gantt Explorer",
+      "sourceIds": [
+        "pm"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.2"
+      ],
+      "sourceFocus": "Project plans, Gantt Explorer, Microsoft Project, teams and resources, milestones, deliverables, action items, automatic execution, sharing with PDM",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s05-l04",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Sharing data between PDM and projects",
+      "sourceIds": [
+        "pm"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.2"
+      ],
+      "sourceFocus": "Project plans, Gantt Explorer, Microsoft Project, teams and resources, milestones, deliverables, action items, automatic execution, sharing with PDM",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s06-l01",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Classification-driven reuse at scale",
+      "sourceIds": [
+        "pl"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1"
+      ],
+      "sourceFocus": "PartsLink overview and use cases, classification search and facets, Find Similar, classification structure and attributes, data loading, autonaming",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s06-l02",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Governing a classification library",
+      "sourceIds": [
+        "pl"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1"
+      ],
+      "sourceFocus": "PartsLink overview and use cases, classification search and facets, Find Similar, classification structure and attributes, data loading, autonaming",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s06-l03",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Faceted search and Find Similar",
+      "sourceIds": [
+        "pl"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1"
+      ],
+      "sourceFocus": "PartsLink overview and use cases, classification search and facets, Find Similar, classification structure and attributes, data loading, autonaming",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s06-l04",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Loading classifications and autonaming",
+      "sourceIds": [
+        "pl"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1"
+      ],
+      "sourceFocus": "PartsLink overview and use cases, classification search and facets, Find Similar, classification structure and attributes, data loading, autonaming",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s07-l01",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "ERP integration patterns",
+      "sourceIds": [
+        "erp",
+        "esi",
+        "rest"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.0.0"
+      ],
+      "sourceFocus": "ERP integration options, ERP Connector vs ESI, distribution targets, ESI preferences, stylesheets, closed-loop transactions, customization; Why PLM-ERP integration, ESI architecture and installation, JMS, SAP publishing; REST basics, Windchill REST Services, OData endpoints, EDM, query parameters, security, domain configuration and customization, best practices",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s07-l02",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "MES, ThingWorx and the digital thread",
+      "sourceIds": [
+        "erp",
+        "esi",
+        "rest"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.0.0"
+      ],
+      "sourceFocus": "ERP integration options, ERP Connector vs ESI, distribution targets, ESI preferences, stylesheets, closed-loop transactions, customization; Why PLM-ERP integration, ESI architecture and installation, JMS, SAP publishing; REST basics, Windchill REST Services, OData endpoints, EDM, query parameters, security, domain configuration and customization, best practices",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s07-l03",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Windchill REST Services and OData",
+      "sourceIds": [
+        "erp",
+        "esi",
+        "rest"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.0.0"
+      ],
+      "sourceFocus": "ERP integration options, ERP Connector vs ESI, distribution targets, ESI preferences, stylesheets, closed-loop transactions, customization; Why PLM-ERP integration, ESI architecture and installation, JMS, SAP publishing; REST basics, Windchill REST Services, OData endpoints, EDM, query parameters, security, domain configuration and customization, best practices",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s07-l04",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "ERP Connector vs ESI",
+      "sourceIds": [
+        "erp",
+        "esi"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.0.0"
+      ],
+      "sourceFocus": "ERP integration options, ERP Connector vs ESI, distribution targets, ESI preferences, stylesheets, closed-loop transactions, customization; Why PLM-ERP integration, ESI architecture and installation, JMS, SAP publishing",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s07-l05",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Distribution targets and publishing to ERP",
+      "sourceIds": [
+        "erp",
+        "esi"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.0.0"
+      ],
+      "sourceFocus": "ERP integration options, ERP Connector vs ESI, distribution targets, ESI preferences, stylesheets, closed-loop transactions, customization; Why PLM-ERP integration, ESI architecture and installation, JMS, SAP publishing",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s07-l06",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "WRS domains, the entity data model and custom domains",
+      "sourceIds": [
+        "rest"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0"
+      ],
+      "sourceFocus": "REST basics, Windchill REST Services, OData endpoints, EDM, query parameters, security, domain configuration and customization, best practices",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s08-l01",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Windchill+ SaaS vs on-premises",
+      "sourceIds": [
+        "ac",
+        "pf",
+        "catalog"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "2026 catalog"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Official course list by area; used for scope only (fundamentals, CAD, BOM, business admin, system admin, Windchill+, collaboration, quality, Navigate, Illustrate)",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s08-l02",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Cloud readiness and customization limits",
+      "sourceIds": [
+        "ac",
+        "pf",
+        "catalog"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "13.1.2.0",
+        "2026 catalog"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Pacesetter scope and deployment, foundational and business process configurations, initial release rules, change intent, concurrent change with redlines; Official course list by area; used for scope only (fundamentals, CAD, BOM, business admin, system admin, Windchill+, collaboration, quality, Navigate, Illustrate)",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s08-l03",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Code and Configuration Deployment (CCD)",
+      "sourceIds": [
+        "ac",
+        "catalog"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "2026 catalog"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Official course list by area; used for scope only (fundamentals, CAD, BOM, business admin, system admin, Windchill+, collaboration, quality, Navigate, Illustrate)",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s08-l04",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Preparing CCD packages with BAC and load files",
+      "sourceIds": [
+        "ac",
+        "catalog"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.0",
+        "2026 catalog"
+      ],
+      "sourceFocus": "Business admin (participants, contexts, types and attributes, lifecycles, workflows, promotion, teams, OIRs, access control, templates, licensing) and system admin (installation, services, properties, vaults, tuning, queues, backup, logs, maintenance); Official course list by area; used for scope only (fundamentals, CAD, BOM, business admin, system admin, Windchill+, collaboration, quality, Navigate, Illustrate)",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s09-l01",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Configure before you customize",
+      "sourceIds": [
+        "cust",
+        "cus-overview",
+        "trn-advdev"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.4",
+        "unstated"
+      ],
+      "sourceFocus": "Why and how to customize, deploying custom code, updates and maintenance, customer build, coding conventions, wtSafeArea, Eclipse IDE; Customization overview, setup, build and deploy conventions; Service framework and xconf registration, QuerySpec and QueryResult, attribute APIs, event listeners, numbering, RMI utilities",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s09-l02",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "The information model and persistence for developers",
+      "sourceIds": [
+        "cust",
+        "cus-overview",
+        "trn-advdev"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.4",
+        "unstated"
+      ],
+      "sourceFocus": "Why and how to customize, deploying custom code, updates and maintenance, customer build, coding conventions, wtSafeArea, Eclipse IDE; Customization overview, setup, build and deploy conventions; Service framework and xconf registration, QuerySpec and QueryResult, attribute APIs, event listeners, numbering, RMI utilities",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s09-l03",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Extension points: UI, listeners and services",
+      "sourceIds": [
+        "cust",
+        "cus-overview",
+        "trn-advdev"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.4",
+        "unstated"
+      ],
+      "sourceFocus": "Why and how to customize, deploying custom code, updates and maintenance, customer build, coding conventions, wtSafeArea, Eclipse IDE; Customization overview, setup, build and deploy conventions; Service framework and xconf registration, QuerySpec and QueryResult, attribute APIs, event listeners, numbering, RMI utilities",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s09-l04",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Development environment and practices",
+      "sourceIds": [
+        "cust",
+        "cus-overview",
+        "trn-advdev"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.4",
+        "unstated"
+      ],
+      "sourceFocus": "Why and how to customize, deploying custom code, updates and maintenance, customer build, coding conventions, wtSafeArea, Eclipse IDE; Customization overview, setup, build and deploy conventions; Service framework and xconf registration, QuerySpec and QueryResult, attribute APIs, event listeners, numbering, RMI utilities",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s09-l05",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s0",
+      "sectionTitle": "Learning section",
+      "title": "Upgrade-safe customization",
+      "sourceIds": [
+        "cust",
+        "cus-overview",
+        "trn-advdev"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.4",
+        "unstated"
+      ],
+      "sourceFocus": "Why and how to customize, deploying custom code, updates and maintenance, customer build, coding conventions, wtSafeArea, Eclipse IDE; Customization overview, setup, build and deploy conventions; Service framework and xconf registration, QuerySpec and QueryResult, attribute APIs, event listeners, numbering, RMI utilities",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s10-l01",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Actions and action models",
+      "sourceIds": [
+        "cus-actions",
+        "cus-mvc",
+        "cus-du",
+        "cus-fp",
+        "cus-val",
+        "cus-wiz",
+        "cus-pick",
+        "cus-ex",
+        "trn-framework"
+      ],
+      "tier": 2,
+      "releases": [
+        "unstated"
+      ],
+      "sourceFocus": "custom-actions.xml, custom-actionModels.xml, action levels; Component builders, persistable and non-persistable tables; Data utility classes and registration; Form processor lifecycle and classes; UI component validation; Wizard steps and JSPs; Item pickers; Combined exercises and worked use cases; UI framework, MVC, validation, data utilities",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s10-l02",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "MVC builders: tables and trees",
+      "sourceIds": [
+        "cus-actions",
+        "cus-mvc",
+        "cus-du",
+        "cus-fp",
+        "cus-val",
+        "cus-wiz",
+        "cus-pick",
+        "cus-ex",
+        "trn-framework"
+      ],
+      "tier": 2,
+      "releases": [
+        "unstated"
+      ],
+      "sourceFocus": "custom-actions.xml, custom-actionModels.xml, action levels; Component builders, persistable and non-persistable tables; Data utility classes and registration; Form processor lifecycle and classes; UI component validation; Wizard steps and JSPs; Item pickers; Combined exercises and worked use cases; UI framework, MVC, validation, data utilities",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s10-l03",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Data utilities",
+      "sourceIds": [
+        "cus-actions",
+        "cus-mvc",
+        "cus-du",
+        "cus-fp",
+        "cus-val",
+        "cus-wiz",
+        "cus-pick",
+        "cus-ex",
+        "trn-framework"
+      ],
+      "tier": 2,
+      "releases": [
+        "unstated"
+      ],
+      "sourceFocus": "custom-actions.xml, custom-actionModels.xml, action levels; Component builders, persistable and non-persistable tables; Data utility classes and registration; Form processor lifecycle and classes; UI component validation; Wizard steps and JSPs; Item pickers; Combined exercises and worked use cases; UI framework, MVC, validation, data utilities",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s10-l04",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Form processors",
+      "sourceIds": [
+        "cus-actions",
+        "cus-mvc",
+        "cus-du",
+        "cus-fp",
+        "cus-val",
+        "cus-wiz",
+        "cus-pick",
+        "cus-ex",
+        "trn-framework"
+      ],
+      "tier": 2,
+      "releases": [
+        "unstated"
+      ],
+      "sourceFocus": "custom-actions.xml, custom-actionModels.xml, action levels; Component builders, persistable and non-persistable tables; Data utility classes and registration; Form processor lifecycle and classes; UI component validation; Wizard steps and JSPs; Item pickers; Combined exercises and worked use cases; UI framework, MVC, validation, data utilities",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s10-l05",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "UI validators",
+      "sourceIds": [
+        "cus-actions",
+        "cus-mvc",
+        "cus-du",
+        "cus-fp",
+        "cus-val",
+        "cus-wiz",
+        "cus-pick",
+        "cus-ex",
+        "trn-framework"
+      ],
+      "tier": 2,
+      "releases": [
+        "unstated"
+      ],
+      "sourceFocus": "custom-actions.xml, custom-actionModels.xml, action levels; Component builders, persistable and non-persistable tables; Data utility classes and registration; Form processor lifecycle and classes; UI component validation; Wizard steps and JSPs; Item pickers; Combined exercises and worked use cases; UI framework, MVC, validation, data utilities",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s10-l06",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Wizards",
+      "sourceIds": [
+        "cus-actions",
+        "cus-mvc",
+        "cus-du",
+        "cus-fp",
+        "cus-val",
+        "cus-wiz",
+        "cus-pick",
+        "cus-ex",
+        "trn-framework"
+      ],
+      "tier": 2,
+      "releases": [
+        "unstated"
+      ],
+      "sourceFocus": "custom-actions.xml, custom-actionModels.xml, action levels; Component builders, persistable and non-persistable tables; Data utility classes and registration; Form processor lifecycle and classes; UI component validation; Wizard steps and JSPs; Item pickers; Combined exercises and worked use cases; UI framework, MVC, validation, data utilities",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s10-l07",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Pickers",
+      "sourceIds": [
+        "cus-actions",
+        "cus-mvc",
+        "cus-du",
+        "cus-fp",
+        "cus-val",
+        "cus-wiz",
+        "cus-pick",
+        "cus-ex",
+        "trn-framework"
+      ],
+      "tier": 2,
+      "releases": [
+        "unstated"
+      ],
+      "sourceFocus": "custom-actions.xml, custom-actionModels.xml, action levels; Component builders, persistable and non-persistable tables; Data utility classes and registration; Form processor lifecycle and classes; UI component validation; Wizard steps and JSPs; Item pickers; Combined exercises and worked use cases; UI framework, MVC, validation, data utilities",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s11-l01",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "The service framework and registering services",
+      "sourceIds": [
+        "trn-advdev",
+        "cus-api",
+        "cust",
+        "trn-code"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.4",
+        "unstated"
+      ],
+      "sourceFocus": "Service framework and xconf registration, QuerySpec and QueryResult, attribute APIs, event listeners, numbering, RMI utilities; Catalogue of classes and methods used in the exercises; Why and how to customize, deploying custom code, updates and maintenance, customer build, coding conventions, wtSafeArea, Eclipse IDE; Form processor, validator and utility examples (checking only, never copied)",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s11-l02",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Querying with QuerySpec",
+      "sourceIds": [
+        "trn-advdev",
+        "cus-api",
+        "cust",
+        "trn-code"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.4",
+        "unstated"
+      ],
+      "sourceFocus": "Service framework and xconf registration, QuerySpec and QueryResult, attribute APIs, event listeners, numbering, RMI utilities; Catalogue of classes and methods used in the exercises; Why and how to customize, deploying custom code, updates and maintenance, customer build, coding conventions, wtSafeArea, Eclipse IDE; Form processor, validator and utility examples (checking only, never copied)",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s11-l03",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Events and listeners",
+      "sourceIds": [
+        "trn-advdev",
+        "cus-api",
+        "cust",
+        "trn-code"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.4",
+        "unstated"
+      ],
+      "sourceFocus": "Service framework and xconf registration, QuerySpec and QueryResult, attribute APIs, event listeners, numbering, RMI utilities; Catalogue of classes and methods used in the exercises; Why and how to customize, deploying custom code, updates and maintenance, customer build, coding conventions, wtSafeArea, Eclipse IDE; Form processor, validator and utility examples (checking only, never copied)",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s11-l04",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Reading and setting attributes in code",
+      "sourceIds": [
+        "trn-advdev",
+        "cus-api",
+        "cust",
+        "trn-code"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.4",
+        "unstated"
+      ],
+      "sourceFocus": "Service framework and xconf registration, QuerySpec and QueryResult, attribute APIs, event listeners, numbering, RMI utilities; Catalogue of classes and methods used in the exercises; Why and how to customize, deploying custom code, updates and maintenance, customer build, coding conventions, wtSafeArea, Eclipse IDE; Form processor, validator and utility examples (checking only, never copied)",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s11-l05",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Customer build, deployment and updates",
+      "sourceIds": [
+        "cust"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.4"
+      ],
+      "sourceFocus": "Why and how to customize, deploying custom code, updates and maintenance, customer build, coding conventions, wtSafeArea, Eclipse IDE",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s12-l01",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Component and supplier management",
+      "sourceIds": [
+        "suma",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "CSM process, manufacturers and vendors, OEM/manufacturer/vendor parts, AMLs and AVLs, new part requests; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s12-l02",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Manufacturers, vendors and sourcing contexts",
+      "sourceIds": [
+        "suma",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "CSM process, manufacturers and vendors, OEM/manufacturer/vendor parts, AMLs and AVLs, new part requests; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s12-l03",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Manufacturer and vendor parts: AMLs and AVLs",
+      "sourceIds": [
+        "suma",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "CSM process, manufacturers and vendors, OEM/manufacturer/vendor parts, AMLs and AVLs, new part requests; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s12-l04",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Requesting a new part",
+      "sourceIds": [
+        "suma",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "CSM process, manufacturers and vendors, OEM/manufacturer/vendor parts, AMLs and AVLs, new part requests; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s13-l01",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Bringing service into the product lifecycle",
+      "sourceIds": [
+        "sis",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "sBOM, information structures, parts lists, service illustrations, Arbortext authoring, service applicability, publication structures, translation; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s13-l02",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "The service BOM",
+      "sourceIds": [
+        "sis",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "sBOM, information structures, parts lists, service illustrations, Arbortext authoring, service applicability, publication structures, translation; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s13-l03",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Information structures",
+      "sourceIds": [
+        "sis",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "sBOM, information structures, parts lists, service illustrations, Arbortext authoring, service applicability, publication structures, translation; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s13-l04",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Parts lists and service illustrations",
+      "sourceIds": [
+        "sis",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "sBOM, information structures, parts lists, service illustrations, Arbortext authoring, service applicability, publication structures, translation; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s13-l05",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Authoring service content",
+      "sourceIds": [
+        "sis",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "sBOM, information structures, parts lists, service illustrations, Arbortext authoring, service applicability, publication structures, translation; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s13-l06",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Service applicability and publication structures",
+      "sourceIds": [
+        "sis",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "sBOM, information structures, parts lists, service illustrations, Arbortext authoring, service applicability, publication structures, translation; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s13-l07",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Translating service content",
+      "sourceIds": [
+        "sis",
+        "te"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.1.1",
+        "13.0.2.0"
+      ],
+      "sourceFocus": "sBOM, information structures, parts lists, service illustrations, Arbortext authoring, service applicability, publication structures, translation; PLM intro, Pacesetter, navigation and search, documents, CAD data and workspaces, BOMs, configuration specs, baselines, occurrences, change and promotion processes, redlines; appendix on MPM, SUMA, classification, options, service, projects",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s14-l01",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Windchill Navigate: PLM for everyone",
+      "sourceIds": [
+        "nav",
+        "nav-ct",
+        "twx"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.2 / Navigate 9.6",
+        "13.1.0.0 / Navigate 9.7",
+        "ThingWorx 9.3.6"
+      ],
+      "sourceFocus": "Navigate overview, business administration, View apps, apps for active PLM process, digital process plans; Custom task elements, components, OData connector, configuration, landing page; Industrial IoT, modeling, connecting, mashups",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s14-l02",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Administering Navigate and its process apps",
+      "sourceIds": [
+        "nav",
+        "nav-ct",
+        "twx"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.2 / Navigate 9.6",
+        "13.1.0.0 / Navigate 9.7",
+        "ThingWorx 9.3.6"
+      ],
+      "sourceFocus": "Navigate overview, business administration, View apps, apps for active PLM process, digital process plans; Custom task elements, components, OData connector, configuration, landing page; Industrial IoT, modeling, connecting, mashups",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s14-l03",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "Building custom Navigate tasks",
+      "sourceIds": [
+        "nav",
+        "nav-ct",
+        "twx"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.2 / Navigate 9.6",
+        "13.1.0.0 / Navigate 9.7",
+        "ThingWorx 9.3.6"
+      ],
+      "sourceFocus": "Navigate overview, business administration, View apps, apps for active PLM process, digital process plans; Custom task elements, components, OData connector, configuration, landing page; Industrial IoT, modeling, connecting, mashups",
+      "status": "sourced"
+    },
+    {
+      "id": "m07-s14-l04",
+      "moduleId": "m07",
+      "moduleNumber": "07",
+      "moduleTitle": "Advanced Topics & Customization",
+      "sectionId": "m07-s1",
+      "sectionTitle": "Learning section",
+      "title": "ThingWorx essentials: models, connections and mashups",
+      "sourceIds": [
+        "nav",
+        "nav-ct",
+        "twx"
+      ],
+      "tier": 1,
+      "releases": [
+        "13.0.2.2 / Navigate 9.6",
+        "13.1.0.0 / Navigate 9.7",
+        "ThingWorx 9.3.6"
+      ],
+      "sourceFocus": "Navigate overview, business administration, View apps, apps for active PLM process, digital process plans; Custom task elements, components, OData connector, configuration, landing page; Industrial IoT, modeling, connecting, mashups",
+      "status": "sourced"
+    }
+  ],
+  "quizzes": [
+    {
+      "q": "Which source is the primary PTC course guide for business and system administration topics?",
+      "options": [
+        "Windchill Technical Essentials",
+        "Windchill Advanced Configuration",
+        "Windchill REST and OData",
+        "Windchill Project Management"
+      ],
+      "a": 1,
+      "why": "The source map says the Advanced Configuration course manual covers business and system administration."
+    },
+    {
+      "q": "Which supplied source is specifically focused on Windchill customization fundamentals?",
+      "options": [
+        "Introduction to Windchill Customization course guide",
+        "Windchill Project Management course guide",
+        "Service Parts course guide",
+        "PartsLink course guide"
+      ],
+      "a": 0,
+      "why": "The source map identifies the Introduction to Windchill Customization guide as the customization foundation source."
+    },
+    {
+      "q": "Which source family covers MVC builders, including persistable and non-persistable tables?",
+      "options": [
+        "cus-mvc",
+        "cus-du",
+        "cus-pick",
+        "cus-wiz"
+      ],
+      "a": 0,
+      "why": "The source map identifies cus-mvc as MVC builders theory, exercises and sample builders."
+    },
+    {
+      "q": "Which topic is explicitly associated with QuerySpec in the curriculum?",
+      "options": [
+        "Server-side customization",
+        "Service information",
+        "Options and variants",
+        "Supplier management"
+      ],
+      "a": 0,
+      "why": "The curriculum maps QuerySpec to m07-s11 server-side customization."
+    },
+    {
+      "q": "Which source covers Windchill REST Services and OData endpoints?",
+      "options": [
+        "ERP Connector guide",
+        "REST and OData course guide",
+        "Advanced Configuration guide",
+        "Pacesetter guide"
+      ],
+      "a": 1,
+      "why": "The source map identifies the REST/OData course guide for REST basics, WRS, OData endpoints and related topics."
+    },
+    {
+      "q": "Which course guide covers BOM transformation from eBOM to mBOM scenarios?",
+      "options": [
+        "PartsLink",
+        "MPMLink BOM Transformation",
+        "Project Management",
+        "Service Parts"
+      ],
+      "a": 1,
+      "why": "The source map identifies the MPMLink BOM course guide for mBOM rationale and BOM Transformer scenarios."
+    },
+    {
+      "q": "Which module contains the lesson \u201cRevision vs iteration: A.1, A.2, B.1\u201d?",
+      "options": [
+        "Fundamentals",
+        "PDM & Core Features",
+        "Change Management",
+        "System Administration"
+      ],
+      "a": 1,
+      "why": "The lesson id is m02-s02-l01, placing it in module 2."
+    },
+    {
+      "q": "What is the designated fallback when the supplied documents do not establish a Windchill fact?",
+      "options": [
+        "General model knowledge",
+        "Random web sources",
+        "PTC Windchill 13.1.2.0 Help Center",
+        "Older Windchill 10.x slides"
+      ],
+      "a": 2,
+      "why": "The project truth rules explicitly designate the PTC 13.1.2.0 Help Center as the controlled fallback."
+    },
+    {
+      "q": "Which customization topic is represented by cus-du?",
+      "options": [
+        "Data utilities",
+        "Wizards",
+        "Pickers",
+        "Action models"
+      ],
+      "a": 0,
+      "why": "The source map identifies cus-du as Data utilities theory and exercise."
+    },
+    {
+      "q": "Which source covers classification search, facets and Find Similar?",
+      "options": [
+        "PartsLink course guide",
+        "Service Parts course guide",
+        "ERP Connector course guide",
+        "Navigate course guide"
+      ],
+      "a": 0,
+      "why": "The PartsLink course guide covers classification search and facets, Find Similar, classification structure and attributes."
+    }
+  ],
+  "truthRules": {
+    "sourcePriority": [
+      "PTC course guides",
+      "PTC customization training",
+      "PTC Help Center 13.1.2.0",
+      "supporting training",
+      "older releases"
+    ],
+    "fallback": "https://support.ptc.com/help/windchill/r13.1.2.0/en/",
+    "antiHallucination": true
+  }
+}
